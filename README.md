@@ -1,4 +1,4 @@
-# Harmonic Projection of Directed Interactions in Networks
+# Harmonic Projection in Networks
 (C) 2026 Moo K. Chung, University of Wisconsin-Madison
 
 This repository implements harmonic projection for identifying persistent cyclic structure in directed network flows. Given an edge-flow representation of directed interactions, the method constructs boundary operators on a simplicial complex and applies Hodge decomposition to separate the observed flow into dissipative and harmonic components. The harmonic component lies in the kernel of the 1-Hodge Laplacian and represents stable cyclic organization that cannot be explained by gradient-like propagation or local triangular circulation.
