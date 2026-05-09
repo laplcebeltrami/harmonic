@@ -1,4 +1,4 @@
-# Harmonic Flow on Networks
+# Harmonic Projection on Networks
 (C) 2026 Moo K. Chung, University of Wisconsin-Madison
 
 Run main MATLAB live script [SIMULATION-causality.mlx](
