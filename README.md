@@ -10,7 +10,7 @@ Chung, M.K. and Anand, D.A.  and El-Yaagoubi, A.B., Jung, J.-H., Qiu, A., Ombao,
 (C) 2026 Moo K. Chung, University of Wisconsin-Madison
 
 
-# Harmonic Projection in Networks
+## Harmonic Projection in Networks
 
 In the accompanying simulation, directed time series are generated from networks with known cyclic ground truth. Harmonic projection is then used to recover the persistent cycle and is compared against Granger causality, structural equation modeling, and time-lagged correlation. The method is designed for cyclic causal discovery in recurrent network systems, including resting-state fMRI connectivity, where feedback and higher-order interactions are common.
 
