@@ -2,10 +2,10 @@
 
 This repository implements harmonic projection for identifying persistent cyclic structure in directed network flows. Given an edge-flow representation of directed interactions, the method constructs boundary operators on a simplicial complex and applies harmonic projection to separate the observed flow into dissipative and harmonic components. The harmonic component lies in the kernel of the 1-Hodge Laplacian and represents stable cyclic organization that cannot be explained by gradient-like propagation or local triangular circulation.
 
-The proof-of-concept idea is given in
-
+The proof-of-concept idea is given here:
 Chung, M.K. and Anand, D.A.  and El-Yaagoubi, A.B., Jung, J.-H., Qiu, A., Ombao, H. 2026, [Causality as a Minimum Energy Principle](https://arxiv.org/pdf/2604.17151), Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pages 1-5, publihsed as arXiv:2604.17151. 
 
+Extended theoretial development is given here:
 Chung, M.K. El-Yaagoubi, A.B. Ombao, H. 2026 [Vector Space of Cycles, arXiv:2606.08202](https://arxiv.org/abs/2606.08202). The shorter [OHBM 2026 poster](https://github.com/laplcebeltrami/harmonic/blob/main/chung.2026.OHBM.pdf) explain the core idea.
 
 
