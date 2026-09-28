@@ -1,9 +1,9 @@
 # Hilbert Space Theeory of Cycles
 
 <p align="center">
-  <img src="harmonic_superior_subject_01.gif" width="32%" alt="Harmonic streamlines">
-  <img src="harmonic_superior_subject_02.gif" width="32%" alt="Harmonic streamlines">
-  <img src="harmonic_superior_subject_03.gif" width="32%" alt="Harmonic streamlines">
+  <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_01.gif" width="32%" alt="Harmonic streamlines">
+  <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_02.gif" width="32%" alt="Harmonic streamlines">
+  <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_03.gif" width="32%" alt="Harmonic streamlines">
 </p>
 
 This repository implements harmonic projection for identifying persistent cyclic structure in directed network flows. Given an edge-flow representation of directed interactions, the method constructs boundary operators on a simplicial complex and applies harmonic projection to separate the observed flow into dissipative and harmonic components. The harmonic component lies in the kernel of the 1-Hodge Laplacian and represents stable cyclic organization that cannot be explained by gradient-like propagation or local triangular circulation.
