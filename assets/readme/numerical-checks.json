@@ -1,0 +1,30 @@
+{
+  "graph": {
+    "reconstruction": 0,
+    "gradient_harmonic_inner_product": 3.819167204710541E-14,
+    "harmonic_divergence": 1.0126792072454708E-14,
+    "harmonic_expected_error": 5.6871167663466769E-15
+  },
+  "timeseries": {
+    "wrapper_agreement": 2.7891569830491516E-8,
+    "harmonic_divergence": 2.6477131637640694E-16,
+    "reconstruction": 0,
+    "trial": 1,
+    "innovation_sd": 1,
+    "size": [
+      6,
+      200
+    ],
+    "edge_count": 15
+  },
+  "complex": {
+    "boundary_chain": 0,
+    "reconstruction": 0,
+    "known_components": 1.6837365821701479E-15,
+    "harmonic_divergence": 3.2406343207394936E-15,
+    "harmonic_curl": 6.6613381477509392E-16,
+    "orthogonality": 9.3258734068513134E-16
+  },
+  "matlab": "26.2.0.3386108 (R2026b)",
+  "source_commit": "04e0574a79c87c94c7c702a5446ab8744a7d2a57"
+}
