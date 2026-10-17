@@ -1,4 +1,4 @@
-# harmonic: Hilbert Space Theory of Cycles
+# Harmonic flows: Hilbert Space Theory of Cycles
 
 **MATLAB tools for extracting cyclic structure from directed network flows.**
 
