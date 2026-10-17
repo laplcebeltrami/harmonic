@@ -10,7 +10,7 @@ Brain networks contain recurrent interactions that are difficult to summarize on
   <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_03.gif" width="32%" alt="Harmonic streamlines">
 </p>
 
-*The existing animations show time-varying harmonic streamlines for three subjects, viewed from above. They illustrate how cyclic brain-network flow is organized across space and changes over time. These visualizations come from the companion [networkgradients repository](https://github.com/laplcebeltrami/networkgradients); the MATLAB examples below demonstrate the projection and decomposition calculations provided here.*
+*The existing animations show time-varying harmonic streamlines for three subjects, viewed from above. They illustrate how cyclic brain-network flow is organized across space and changes over time.*
 
 ## What the package can do
 
