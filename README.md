@@ -4,6 +4,27 @@
 
 Brain networks contain recurrent interactions that are difficult to summarize one connection at a time. This package represents directed interactions as edge flows and uses harmonic projection to isolate their cyclic component. It provides MATLAB functions, worked simulations, and comparisons with other methods for estimating directed interactions.
 
+## Population-level cyclic interactions
+
+Three synchronized rotating views of the population-mean rs-fMRI result from **400 HCP participants and 1,543 scans**. Each animation shows the **3D directed graph on the left** and the **corresponding streamline field on the right**.
+
+<table>
+  <tr>
+    <th align="center">Lateral view</th>
+    <th align="center">Superior view</th>
+    <th align="center">Posterior view</th>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><a href="assets/animations/Figure1_Lateral_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Lateral_3D_Graph_Streamlines.gif" width="100%" alt="Lateral rotating view: directed graph left, streamlines right"></a></td>
+    <td width="33%" align="center"><a href="assets/animations/Figure1_Superior_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Superior_3D_Graph_Streamlines.gif" width="100%" alt="Superior rotating view: directed graph left, streamlines right"></a></td>
+    <td width="33%" align="center"><a href="assets/animations/Figure1_Posterior_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Posterior_3D_Graph_Streamlines.gif" width="100%" alt="Posterior rotating view: directed graph left, streamlines right"></a></td>
+  </tr>
+</table>
+
+Click an animation to open its full-resolution version. Each GIF is **1920 × 1080**, loops continuously, and is **under 25 MB**. Colors represent relative interpolated field magnitude, and arrows indicate direction. The camera moves while the estimated population-mean interactions remain fixed.
+
+## Time-varying individual patterns
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_01.gif" width="32%" alt="Harmonic streamlines">
   <img src="https://raw.githubusercontent.com/laplcebeltrami/networkgradients/main/harmonic_superior_subject_02.gif" width="32%" alt="Harmonic streamlines">
