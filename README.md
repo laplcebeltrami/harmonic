@@ -4,25 +4,6 @@
 
 Brain networks contain recurrent interactions that are difficult to summarize one connection at a time. This package represents directed interactions as edge flows and uses harmonic projection to isolate their cyclic component. It provides MATLAB functions, worked simulations, and comparisons with other methods for estimating directed interactions.
 
-## Population-level cyclic interactions
-
-Three synchronized rotating views of the population-mean rs-fMRI result from **400 HCP participants and 1,543 scans**. Each animation shows the **3D directed graph on the left** and the **corresponding streamline field on the right**.
-
-<table>
-  <tr>
-    <th align="center">Lateral view</th>
-    <th align="center">Superior view</th>
-    <th align="center">Posterior view</th>
-  </tr>
-  <tr>
-    <td width="33%" align="center"><a href="assets/animations/Figure1_Lateral_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Lateral_3D_Graph_Streamlines.gif" width="100%" alt="Lateral rotating view: directed graph left, streamlines right"></a></td>
-    <td width="33%" align="center"><a href="assets/animations/Figure1_Superior_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Superior_3D_Graph_Streamlines.gif" width="100%" alt="Superior rotating view: directed graph left, streamlines right"></a></td>
-    <td width="33%" align="center"><a href="assets/animations/Figure1_Posterior_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Posterior_3D_Graph_Streamlines.gif" width="100%" alt="Posterior rotating view: directed graph left, streamlines right"></a></td>
-  </tr>
-</table>
-
-Click an animation to open its full-resolution version. Each GIF is **1920 × 1080**, loops continuously, and is **under 25 MB**. Colors represent relative interpolated field magnitude, and arrows indicate direction. The camera moves while the estimated population-mean interactions remain fixed.
-
 ## Time-varying individual patterns
 
 <p align="center">
@@ -32,6 +13,16 @@ Click an animation to open its full-resolution version. Each GIF is **1920 × 10
 </p>
 
 *The existing animations show time-varying harmonic streamlines for three subjects, viewed from above. They illustrate how cyclic brain-network flow is organized across space and changes over time.*
+
+## Population-level cyclic interactions
+
+The same population-mean rs-fMRI result from **400 HCP participants and 1,543 scans**, viewed from multiple angles.
+
+<p align="center">
+  <a href="assets/animations/Figure1_Rotating_3D_Graph_Streamlines.gif"><img src="assets/animations/Figure1_Rotating_3D_Graph_Streamlines.gif" width="100%" alt="Rotating population-mean brain network: 3D directed graph on the left and corresponding streamlines on the right"></a>
+</p>
+
+**Left:** 3D directed graph. **Right:** corresponding streamlines. Both panels rotate together through lateral, superior, and inferior angles. The interactions remain fixed; this is a change in viewpoint, not activity evolving over time. Colors indicate flow magnitude, and arrows indicate direction. Click the animation for the full-resolution GIF (under 25 MB).
 
 ## What the package can do
 
